@@ -64,7 +64,7 @@ let currentId=null;
            edit.id="edit"
                 edit.addEventListener("click", () => {
                 editData(ele);
-                // alert("Are you want to edit your card")
+                
                     });
                 card.append( photo,name, des, email, address, edit,del);
                 cont.append(card)
